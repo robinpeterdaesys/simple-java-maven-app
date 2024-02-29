@@ -27,7 +27,7 @@
   	
   	<snapshotRepository>
   		<id>nexus</id>
-  		<name>releases</name>
+  		<name>snapshots</name>
   		<url>http://15.222.168.0:8081/repository/myorg-maven-hosted-repo/</url>
   	</snapshotRepository>
   </distributionManagement>
