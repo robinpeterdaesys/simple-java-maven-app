@@ -25,11 +25,11 @@
   		<url>http://15.222.168.0:8081/repository/myorg-maven-group/</url>
   	</repository>
   	
-  	<snapshortRepository>
+  	<snapshotRepository>
   		<id>nexus</id>
   		<name>releases</name>
   		<url>http://15.222.168.0:8081/repository/myorg-maven-group/</url>
-  	</snapshortRepository>
+  	</snapshotRepository>
   </distributionManagement>
   
   <build>
