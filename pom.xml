@@ -18,6 +18,20 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+  	<repository>
+  		<id>nexus</id>
+  		<name>releases</name>
+  		<url>http://15.222.168.0:8081/repository/myorg-maven-group/</url>
+  	</repository>
+  	
+  	<snapshortRepository>
+  		<id>nexus</id>
+  		<name>releases</name>
+  		<url>http://15.222.168.0:8081/repository/myorg-maven-group/</url>
+  	</snapshortRepository>
+  </distributionManagement>
+  
   <build>
     <pluginManagement>
       <plugins>
